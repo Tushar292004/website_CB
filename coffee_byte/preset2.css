@@ -1,0 +1,24 @@
+/* Services Center */
+
+.services {
+    flex-direction: column;
+}
+
+/* Navigation bar */
+.navbar {
+    flex-direction: column;
+}
+
+.tag{
+    position: absolute;
+    margin-right: 60px;
+}
+
+/* home section */
+.home{
+    height: 440px;
+    margin: 35px 35px;
+}
+.home::before{
+    height: 140%;
+}

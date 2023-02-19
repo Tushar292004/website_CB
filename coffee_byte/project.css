@@ -1,0 +1,324 @@
+/* CSS RESET */
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS VARIABLES */
+
+:root {
+    --navbar-height: 59px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    font-family: 'Shantell Sans', cursive;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 55%;
+    z-index: -1;
+}
+
+
+
+/* Navigation Bar : Logo And Image */
+
+.logo {
+    width: 85px;
+    /* padding-left: 1258px; */
+    margin: 8px -18px;
+}
+
+.logo img {
+    filter: invert(100%);
+    height: 35px;
+    margin: 0px 20px;
+    width: 40%;
+}
+
+.tag {
+    color: aliceblue;
+    font-size: 36px;
+    padding-right: 40px;
+
+}
+
+/* Navigation Bar: List Styling */
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+
+    list-style: none;
+    font-size: 1.3rem
+}
+
+.navbar ul li a {
+    font-weight: bolder;
+    color: azure;
+    display: block;
+    padding: 4px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: azure;
+}
+
+/* Home Section */
+.home {
+    /* color: azure;text-shadow: 3px 3px black; */
+    display: flex;
+    flex-direction: column;
+    padding: 45px 25px;
+    margin: 35px 174px;
+    /* border: 3px solid rgb(219, 219, 219); */
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home::before {
+    content: "";
+    background: url(peakpx.jpg) no-repeat center center/cover;
+    /* background: url(pexels-joe-l-2788792.jpg)no-repeat top center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 97%;
+    z-index: -2;
+}
+
+.home p {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.home h1 {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    text-align: center;
+}
+
+/* Services Center */
+.services {
+    display: flex;
+    margin: 34px;
+}
+
+.services .box2 {
+    font-family: 'Shantell Sans', cursive;
+    border: 3px solid rgb(37 29 29);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    color: rgb(37 29 29);
+    background-color: #ddd0ca
+
+
+}
+
+.services .box2 img {
+    height: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 29px;
+    /* width: 20%; */
+}
+
+.services .box2 p {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Utility class */
+.h1-primary {
+    font-weight: bold;
+    font-size: 4.0rem;
+    padding: 12px;
+}
+
+.h1-secondary {
+    font-weight: bold;
+    font-size: 3.0rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(37 29 29);
+    /* margin: 17px 127px; */
+    margin-top: 45px;
+    margin-bottom: 0px;
+    margin-left: 127px;
+    margin-right: 127px;
+    font-size: 1.5rem;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(59, 47, 47);
+}
+
+.s-center {
+    font-weight: bold;
+    font-size: 5.0rem;
+    padding-top: 120px;
+    font-family: c;
+
+    text-align: center;
+    color: rgb(32, 26, 26);
+}
+
+.h-scenter {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+/* last Section */
+
+/* .client-item p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 12px;
+    text-align: center;
+} */
+
+.client-item h1{
+    padding-top: 662px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    text-align: center;
+    background: url(wallpaperflare.com_wallpaper.jpg) no-repeat top center/cover;
+    /* z-index: -1;*/
+} 
+
+/* /contact us */
+
+.contact {
+    /* color: azure;text-shadow: 3px 3px black; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    margin: 15px 174px;
+    /* border: 3px solid rgb(219, 219, 219); */
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact::before {
+    content: "";
+    background: url(peakpx.jpg) no-repeat center center/cover;
+    /* background: url(pexels-joe-l-2788792.jpg)no-repeat top center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 97%;
+    z-index: -2;
+}
+
+.contact h1 {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.0rem;
+    padding: 12px;
+    margin-top: 0px;
+}
+
+
+.cbox{
+    padding-bottom: 13px;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.form-group{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+}
+
+.cbox form{
+    width: 100%;
+}
+
+.cbox input, .cbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.2rem ;
+}
+
+.handels ul {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.handels ul li {
+    list-style: none;
+    font-size: 2.3rem
+}
+
+.handels ul li a {
+    font-weight: bolder;
+    color: azure;
+    display: block;
+    padding: 4px 80px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.handels ul li a:hover {
+    color: black;
+    background-color: azure;
+}
+
+
+.p1{
+    text-align:inherit;
+    width: 130%;
+}
+
+#home2{
+    padding: 0px 25px;
+}
